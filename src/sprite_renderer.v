@@ -166,10 +166,3 @@ module sprite_renderer(
 	end
 
 endmodule
-
-
-
-dule
-
-
-
