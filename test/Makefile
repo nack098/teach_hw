@@ -6,7 +6,7 @@ SIM ?= icarus
 FST ?= -fst # Use more efficient FST format
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = top_mario.v
+PROJECT_SOURCES = top_mario.v RAM.v RAM2.v bg_renderer.v hvsync_generator.v mario_renderer.v
 
 ifneq ($(GATES),yes)
 
